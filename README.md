@@ -62,7 +62,7 @@ be provided by the shell or in a local `.env` file in the project root.
 | `DB_PORT` | MySQL server port, commonly `3306` |
 | `DB_NAME` | Name of an existing MySQL database |
 
-Example `.env` (replace the placeholder values; do not commit real credentials):
+Example `.env` 
 
 ```dotenv
 DB_USER=your_mysql_user
