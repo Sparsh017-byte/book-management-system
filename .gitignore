@@ -1,0 +1,52 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Go binaries and build outputs
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files (optional)
+go.work
+go.work.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Test and coverage outputs
+coverage.out
+coverage.html
+
+# Local database backups and dumps
+*.sql
+*.sql.gz
+*.dump
+
+# Dependency vendor directory (ignore only if you don't commit vendored dependencies)
+# vendor/
